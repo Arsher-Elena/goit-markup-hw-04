@@ -138,6 +138,16 @@ background-color: var(--accent-color);
 color: #FFFFFF;
 }
 
+.features-list {
+        width: 264px;
+        height: 112px;
+}
+.features-top-icon {
+        width: 264px;
+        height: 112px;
+        border-radius: 4px;
+        margin-bottom: 8px;
+}
 
 .functional {
             font-weight: 500;
@@ -228,14 +238,19 @@ team-soc-link:focus {
         border-radius: 4px;
         width: 168px;
         height: 88px;
+        fill: #8E8F99;
 }
 .icon-link {
          display: flex;
-                justify-content: center;
-                align-items: center;
+        justify-content: center;
+        align-items: center;
 }
 .customers-list {
         gap: 24px;
+}
+.icon-top-list:hover,
+.icon-top-list:focus {
+        border-color:  #404BBF;
 }
 
 
@@ -251,6 +266,7 @@ team-soc-link:focus {
         color: #434455;
         margin-bottom: 8px;
 }
+
 .footer-text {
         font-size: 16px;
         line-height: 1.5;
@@ -258,6 +274,14 @@ team-soc-link:focus {
         color: #E7E9FC;
         margin-top: 16px;
         max-width: 264px;
+}
+
+.social {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
 }
 .modals-btn {
         min-width: 69px;
@@ -354,7 +378,7 @@ img {
 }
 .section-two {
         padding-top: 120px;
-        padding-bottom: 120px;
+        padding-bottom: 240px;
 }
 .our-work-container {
         display: flex;
@@ -379,8 +403,10 @@ img {
  padding-bottom: 100px;
 }
 
+
 .page-header {
         border-bottom: 1px solid #E7E9FC;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .list-container {
@@ -435,6 +461,40 @@ img {
         border-bottom: 1px solid #E7E9FC;
         padding-left: 16px;
 }
+.text-container:hover,
+.text-container:focus {
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+
 .functional-top-list {
         margin-bottom: 8px;
 }
+
+.footer-container-top {
+        display: flex;
+}
+.footer-container-two {
+        margin-left: 120px;
+}
+.social {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+}
+.team-icon {
+width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: #434455;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.team-icon:hover,
+.team-icon:focus {
+        background-color: #31D0AA }
+
